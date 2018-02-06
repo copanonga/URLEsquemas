@@ -13,6 +13,7 @@
 		D1D097742029A26D006848E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D097732029A26D006848E1 /* Assets.xcassets */; };
 		D1D097772029A26D006848E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D097752029A26D006848E1 /* LaunchScreen.storyboard */; };
 		D1D0977A2029A26D006848E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D097792029A26D006848E1 /* main.m */; };
+		D1D097822029A3D4006848E1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D1D097812029A3D4006848E1 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D1D097762029A26D006848E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1D097782029A26D006848E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D097792029A26D006848E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1D097812029A3D4006848E1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D1D097692029A26D006848E1 /* URLEsquemas */ = {
 			isa = PBXGroup;
 			children = (
+				D1D097802029A3D4006848E1 /* Web */,
 				D1D0976A2029A26D006848E1 /* AppDelegate.h */,
 				D1D0976B2029A26D006848E1 /* AppDelegate.m */,
 				D1D0976D2029A26D006848E1 /* ViewController.h */,
@@ -69,6 +72,14 @@
 				D1D097792029A26D006848E1 /* main.m */,
 			);
 			path = URLEsquemas;
+			sourceTree = "<group>";
+		};
+		D1D097802029A3D4006848E1 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D1D097812029A3D4006848E1 /* index.html */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D097772029A26D006848E1 /* LaunchScreen.storyboard in Resources */,
+				D1D097822029A3D4006848E1 /* index.html in Resources */,
 				D1D097742029A26D006848E1 /* Assets.xcassets in Resources */,
 				D1D097722029A26D006848E1 /* Main.storyboard in Resources */,
 			);
